@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+main {
+    display: block;
+}
+header, footer {
+    border-style : solid ;
+    border-color : red ;
+}
+.contenedor-principal {
+    border-style : solid ;
+    border-color :rgb(88, 4, 4) ;
+}
+main { 
+    border-style : solid ;
+    border-color : rgb(5, 58, 5) ;
+    border-width : 1px;
+}
+aside section .mensaje-chat {
+    border-style : solid ;
+    border-color : rgb(5, 58, 5) ;
+}
+.lista-menu {
+    list-style: none;
+}
+.lista-menu li {
+    display: inline-block;
+    margin-right :25px;
+}
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: 65% 35% ;
+}
+.contenedor-principal main {
+  display : grid ;
+  justify-content: center;
+}
+.comentarios {
+    display : grid ;
+    grid-gap: 10px;
+    padding-top: 20px;
+padding-bottom: 20px;
+}
